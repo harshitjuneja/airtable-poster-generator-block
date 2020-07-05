@@ -31,4 +31,4 @@ Any contributions you make to this effort **are of course greatly appreciated**.
 
 ## License & Copyright
 
-<a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" style="border-width:0" src="https://opensource.org/files/OSIApproved.png" /></a><br />This work is licensed under a <a rel="license" href="https://opensource.org/licenses/MIT">MIT License</a>.
+<a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" style="border-width:0" src="https://opensource.org/files/OSIApproved.png" width="100px" height="100px" /></a><br />This work is licensed under a <a rel="license" href="https://opensource.org/licenses/MIT">MIT License</a>.
