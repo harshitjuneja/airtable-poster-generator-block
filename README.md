@@ -53,7 +53,34 @@ The poster generator custom block has just the following pre-requisites:
 
 7. Save to Airtable
 
-## Polishing:
+## Polished to an extent:
+
+- The block watches for changes using useBase
+
+- Queries where possible are hadled with 'ifExists' e.g. 'getTableIfExist' and fallback conditions are handled accordingly
+
+- Fallback triggered if the record doesn't have a "Base Image" or a "Logo" field to allow selecting any record once table has the necessary fields.
+
+- Limited record data is loaded by using query params:
+
+  ```js
+      const selectedRecord = useRecordById(
+      table,
+      selectedRecordId ? selectedRecordId : "",
+      {
+      fields: ["Base Image", "Logo", "Event Name", "Poster"],
+      }
+  ```
+
+```
+
+- Base Image is auto scaled to fit canvas size
+
+- Rectangle logo and a square logo are auto scaled down to give a branding presence on the top right corner
+
+- Mouse out and Mouse up events remove selected text during drag and drop text operations.
+
+* Image cross origin is set to Anonymous to prevent the canvas from getting tainted, so we can be assured the image saved will be exactly the same as on canvas
 
 ## Work Areas:
 
@@ -68,3 +95,4 @@ Any contributions you make to this effort **are of course greatly appreciated**.
 ## License & Copyright
 
 <a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" style="border-width:0" src="https://opensource.org/files/OSIApproved.png" width="100px" height="100px" /></a><br />This work is licensed under a <a rel="license" href="https://opensource.org/licenses/MIT">MIT License</a>.
+```
