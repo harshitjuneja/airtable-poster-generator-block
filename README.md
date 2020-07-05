@@ -54,12 +54,12 @@ The poster generator custom block has just the following pre-requisites:
 7. Save to Airtable
 
 <div align="center">
-    <img src = "./demo/onboarding.png">
+    <img src = "./demo/onboarding.gif">
 </div>
 
 ## Polished to an extent:
 
-- The block watches for changes using useBase
+- The block watches for schema changes with useBase hook.
 
 - Queries where possible are hadled with 'ifExists' e.g. 'getTableIfExist' and fallback conditions are handled accordingly
 
