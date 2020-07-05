@@ -72,8 +72,6 @@ The poster generator custom block has just the following pre-requisites:
       }
   ```
 
-```
-
 - Base Image is auto scaled to fit canvas size
 
 - Rectangle logo and a square logo are auto scaled down to give a branding presence on the top right corner
@@ -95,4 +93,3 @@ Any contributions you make to this effort **are of course greatly appreciated**.
 ## License & Copyright
 
 <a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" style="border-width:0" src="https://opensource.org/files/OSIApproved.png" width="100px" height="100px" /></a><br />This work is licensed under a <a rel="license" href="https://opensource.org/licenses/MIT">MIT License</a>.
-```
