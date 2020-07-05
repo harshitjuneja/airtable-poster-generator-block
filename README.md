@@ -8,16 +8,16 @@ Create social media banners and graphic images for any platform in minutes witho
 
 Advertising, both print and digital account for 54.39 billion dollars of market when clubbed together [Goldstein Report](<https://www.goldsteinresearch.com/report/india-advertising-market#:~:text=Goldstein%20Research%20analyst%20forecast%20that,period%20(2017%2D2025).>). According to this [report](https://themanifest.com/advertising/small-business-advertising-spending-2019) from the manifest, nearly all small businesses (91%) plan to increase their advertising spending, indicating that small businesses prioritize advertising and see it as a beneficial marketing strategy.
 
-I lead a developer community and although I am not a marketeer, after some discussion with friends in the space I found out that when it came to building assets(posters to be more specific) found that we had exactly the same needs:
+I lead a developer community and although I am not a marketeer, after some discussion with friends in the space I found out that when it came to building assets(posters to be more specific) marketing managers and event managers have exactly the same needs:
 
-1. A **RAPID** delivery/prototyping tool that is really easy to edit on
-2. Shouldn't require design experience
-3. Poster should showcase my/client's brand well without much editing effort
-4. Something strictly within Airtable to avoid platform switches and all the friction that comes along
-5. Customizable/draggable text
+1. A **RAPID** poster building/prototyping tool that is really easy to edit.
+2. Shouldn't require design experience.
+3. Poster should showcase my/client's brand well without much editing effort.
+4. Something strictly within Airtable to avoid platform switches and all the friction that comes along.
+5. Customizable/draggable text.
 6. Downloadable outside airtable as well.
 
-I realized this is a great market fit and uncovered a need for a small to medium business (for quick execution and generating posters for campaigning) and also for a large organization with a dedicated design team (for rapid prototyping inside airtable) and started on towards my journey of building the **poster generator custom block** over an airtable base in my workspace.
+I realized this is a great market fit and it uncovered a need for a small to medium business (for quick execution and generating posters for campaigning) and also for a large organization with a dedicated design team (for rapid prototyping inside airtable) and started on towards my journey of building the **poster generator custom block** over an airtable base in my workspace.
 
 Please note that blocks are still in beta and are accessibe in Pro and Enterprise workspaces for now.
 
@@ -31,6 +31,4 @@ Any contributions you make to this effort **are of course greatly appreciated**.
 
 ## License & Copyright
 
-The materials herein are all &copy; 2019-2020 Kyle Simpson.
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported License</a>.
+<a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" style="border-width:0" src="https://opensource.org/files/OSIApproved.png" /></a><br />This work is licensed under a <a rel="license" href="https://opensource.org/licenses/MIT">MIT License</a>.
