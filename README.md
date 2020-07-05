@@ -1,4 +1,4 @@
-# Poster Generator Block (Airtable Custom block)
+# Poster Generator (Airtable Custom block)
 
 Create social media banners and graphic images for any platform in minutes without leaving airtable with Poster Generator. Best suited for **rapid design prototyping** and bringing brand campaigns ideas to life.
 
@@ -6,7 +6,7 @@ Create social media banners and graphic images for any platform in minutes witho
   <img src="./demo/full-demo.gif">&nbsp;&nbsp;
 </div>
 
-## Inspiration and perspective behind building the Poster Generator cusotom block
+## Inspiration and perspective behind building the Poster Generator block
 
 Advertising, both print and digital account for 54.39 billion dollars of market when clubbed together [Goldstein Report](<https://www.goldsteinresearch.com/report/india-advertising-market#:~:text=Goldstein%20Research%20analyst%20forecast%20that,period%20(2017%2D2025).>). According to this [report](https://themanifest.com/advertising/small-business-advertising-spending-2019) from the manifest, nearly all small businesses (91%) plan to increase their advertising spending, indicating that small businesses prioritize advertising and see it as a beneficial marketing strategy.
 
@@ -80,9 +80,16 @@ The poster generator custom block has just the following pre-requisites:
 
 * Image cross origin is set to Anonymous to prevent the canvas from getting tainted, so we can be assured the image saved will be exactly the same as on canvas
 
-## Work Areas:
+## What's next for Poster Generator:
+
+1. Save to Airtable feature:
+
+- onBoarding user with their API key
+- Global Config and enabling save to Airtable for only user with creater permission
 
 ## Challenges and Accomplishments:
+
+To start with, **I am really proud of the substantial amount of progress** I am able to make on this side project along with my regular day job. The experience has been pretty rewarding. When I started (about a month ago). I had heard a bit about react, I had tried Airtable for note taking before but wasn't really friendly with the platform, AWS and canvas were newer experiences as well. The community support around this product is really good. I have nothing but positive interactions here. It has been super fun ride with some nights spent thinking solutions and other with accomplishments before the slumber.
 
 ## Contributions
 
