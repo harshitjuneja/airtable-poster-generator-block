@@ -2,7 +2,7 @@
 
 Create social media banners and graphic images for any platform in minutes without leaving airtable with Poster Generator. Best suited for **rapid design prototyping** and bringing brand campaigns ideas to life.
 
-<img src="https://qpostgen.s3.us-east-2.amazonaws.com/onboarding.png">&nbsp;&nbsp;
+<img src="./demo/onboarding.gif">&nbsp;&nbsp;
 
 ## Inspiration, motivation and perspective behind building the Poster Generator cusotom block
 
