@@ -1,4 +1,4 @@
-# Poster Generator (Airtable Custom block)
+# Poster Generator (Airtable Custom Block)
 
 Create social media banners and graphic images for any platform in minutes without leaving airtable with Poster Generator. Best suited for **rapid design prototyping** and bringing brand campaigns ideas to life.
 
@@ -8,9 +8,9 @@ Create social media banners and graphic images for any platform in minutes witho
 
 ## Inspiration and perspective behind building the Poster Generator block
 
-Advertising, both print and digital account for 54.39 billion dollars of market when clubbed together [Goldstein Report](<https://www.goldsteinresearch.com/report/india-advertising-market#:~:text=Goldstein%20Research%20analyst%20forecast%20that,period%20(2017%2D2025).>). According to this [report](https://themanifest.com/advertising/small-business-advertising-spending-2019) from the manifest, nearly all small businesses (91%) plan to increase their advertising spending, indicating that small businesses prioritize advertising and see it as a beneficial marketing strategy.
+Advertising, both print and digital account for 54.39 billion dollars of market when clubbed together [(Goldstein Report)](<https://www.goldsteinresearch.com/report/india-advertising-market#:~:text=Goldstein%20Research%20analyst%20forecast%20that,period%20(2017%2D2025).>). According to this [report](https://themanifest.com/advertising/small-business-advertising-spending-2019) from the manifest, nearly all small businesses (91%) plan to increase their advertising spending, indicating that small businesses prioritize advertising and see it as a beneficial marketing strategy.
 
-I lead a developer community and although I am not a marketeer, after some discussion with friends in the space I found out that when it came to building assets(posters to be more specific) marketing managers and event managers have exactly the same needs:
+I lead a [developer community](https://www.facebook.com/groups/DevCDelhiNCR/) and although I am not a marketeer, but post discussions with friends in the space I found out that when it came to building assets(posters to be more specific) marketing managers and event/community managers have exactly the same needs:
 
 1. A **RAPID** poster building/prototyping tool that is really easy to edit.
 2. Shouldn't require design experience.
@@ -53,6 +53,10 @@ The poster generator custom block has just the following pre-requisites:
 
 7. Save to Airtable
 
+<div align="center">
+    <img src = "./demo/onboarding.png">
+</div>
+
 ## Polished to an extent:
 
 - The block watches for changes using useBase
@@ -84,8 +88,17 @@ The poster generator custom block has just the following pre-requisites:
 
 1. Save to Airtable feature:
 
-- onBoarding user with their API key
-- Global Config and enabling save to Airtable for only user with creater permission
+   Saving poster to Airtable is an experimental feature that uses an AWS S3 bucket for saving all the posters first to cloud (because airtable accepts URL as an attachment so a host environment was necessary). Saving user data without permission is a risk that I wanted to avoid hence, this feature is disabled by default and all the code that accomplishes this is commented.
+
+   Here's how this feature will be accomplished in future:
+
+   - onBoarding user with their API creds
+
+   - Save to Airtable enabled for only user with creater permission
+
+2. When a table is changed without the pre-requisite fields. The blocks runs into a rendered fewer react hooks error. https://community.airtable.com/t/error-rendered-more-fewer-hooks-workarounds-combine-queries/31154. This is yet to be fixed.
+
+3. Images that don't load for the first time need an addition canvas re-render. Sometimes this results in a blank canvas with just the text till a render is forced. This needs further investigation as of now.
 
 ## Challenges and Accomplishments:
 
