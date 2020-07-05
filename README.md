@@ -6,7 +6,7 @@ Create social media banners and graphic images for any platform in minutes witho
   <img src="./demo/onboarding.gif">&nbsp;&nbsp;
 </div>
 
-## Inspiration, motivation and perspective behind building the Poster Generator cusotom block
+## Inspiration and perspective behind building the Poster Generator cusotom block
 
 Advertising, both print and digital account for 54.39 billion dollars of market when clubbed together [Goldstein Report](<https://www.goldsteinresearch.com/report/india-advertising-market#:~:text=Goldstein%20Research%20analyst%20forecast%20that,period%20(2017%2D2025).>). According to this [report](https://themanifest.com/advertising/small-business-advertising-spending-2019) from the manifest, nearly all small businesses (91%) plan to increase their advertising spending, indicating that small businesses prioritize advertising and see it as a beneficial marketing strategy.
 
@@ -24,6 +24,40 @@ I realized this is a great market fit and it uncovered a need for a small to med
 Please note that blocks are still in beta and are accessibe in Pro and Enterprise workspaces for now.
 
 To support planning and managing of these advertising campaigns, airtable already has a base template which can be accessed [here](https://airtable.com/templates/marketing/expNoL0sYUbOogSCm/advertising-campaigns) which I think is the best suited place to install and experience the block.
+
+## Pre-requisites:
+
+The poster generator custom block has just the following pre-requisites:
+
+<div align="center">
+    <img src = "https://qpostgen.s3.us-east-2.amazonaws.com/onboarding.png">
+</div>
+
+## Features:
+
+1. Onboarding of new users
+
+2. Image and brand logo insertion
+
+3. Canvas updation on record selection
+
+4. Customization Options:
+
+   - Font Color
+   - Font Size
+   - Font
+
+5. Text Insertion and Repositioning (Drag and Drop)
+
+6. Download Option
+
+7. Save to Airtable
+
+## Polishing:
+
+## Work Areas:
+
+## Challenges and Accomplishments:
 
 ## Contributions
 
